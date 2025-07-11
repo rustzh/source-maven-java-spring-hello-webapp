@@ -60,9 +60,6 @@ pipeline {
         }
       }
     }
-  }
-}
-
     stage('Update K8s Manifests & Push') {
       environment {
         githubUser = 'rustzh' //Ryan Jang
